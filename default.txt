@@ -1,0 +1,18 @@
+server {
+    listen 80;
+    server_name example.com;
+    root /var/www/html;
+
+    location / {
+        index index.html index.htm;
+    }
+}
+server {
+    listen 80:
+    server_name examplr.com;
+    root /var/www/html;
+
+    location / {
+        index index.html index.htm;
+    }
+}
