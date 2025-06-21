@@ -1,3 +1,4 @@
+
 server {
     listen 80;
     server_name example.com;
@@ -16,3 +17,5 @@ server {
         index index.html index.htm;
     }
 }
+echo "Hello NGNIX"
+
